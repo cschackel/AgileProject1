@@ -1,0 +1,13 @@
+.cb{
+    line-height: 1.3;
+}
+.required
+{
+    color:red;
+}
+#certArea{
+    display: none;
+}
+#certArea2{
+    display: none;
+}
