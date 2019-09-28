@@ -1,0 +1,12 @@
+.cb{
+    line-height: 1.3;
+}
+.required
+{
+    color:red;
+}
+.searchBtn
+{
+    align-content: end;
+    align-self: end;
+}

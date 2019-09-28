@@ -22,6 +22,14 @@
         </div>
 
         <div class="row">
+            <div class="form-group col-sm-5 px-1">
+                <label >Course Prefix<span class="required">*</span></label>
+                <input type="text" class="form-control" placeholder="Prefix">
+
+            </div>
+        </div>
+
+        <div class="row">
 
             <div class="form-group col-sm-5 px-1">
                 <label >Course Description<span class="required">*</span></label>
@@ -51,11 +59,13 @@
 
         </div>
 
-        <button type="button" class="btn btn-primary" id="certBtn">Add A Required Teaching Certification</button>
+        <button type="button" class="btn btn-primary mb-2 row" id="certBtn">Add A Required Teaching Certification</button>
 
-        <div id="certArea" class="card shadow-sm mb-2">
+        <div id="certArea" class="card shadow-sm mb-2 row">
             <h2>Required Certifications:</h2>
+
             <select class="custom-select" id="inputGroupSelect02">
+                <option value="" hidden>None</option>
                 <option value="A+">CompTIA A+</option>
                 <option value="Sec+">CompTIA Security+</option>
                 <option value="AWS">AWS Certification</option>
@@ -63,12 +73,12 @@
             </select>
         </div>
 
+        <button type="button" class="btn btn-primary row mb-2" id="certBtn2">Add A Completion Certification</button>
 
-        <button type="button" class="btn btn-primary" id="certBtn2">Add A Required Teaching Certification</button>
-
-        <div id="certArea2" class="card shadow-sm mb-2">
+        <div id="certArea2" class="card shadow-sm mb-2 mt-sm-1 row">
             <h2>Awarded Certifications:</h2>
             <select class="custom-select" id="inputGroupSelect03">
+                <option value="" hidden>None</option>
                 <option value="A+">CompTIA A+</option>
                 <option value="Sec+">CompTIA Security+</option>
                 <option value="AWS">AWS Certification</option>
@@ -78,8 +88,9 @@
 
 
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary row">Submit</button>
     </form>
+    <br><br><br>
 </div>
 <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-grid.css" rel="stylesheet">
+    <link href="css/bootstrap-reboot.css" rel="stylesheet">
+    <link href="css/enroll.css" rel="stylesheet">
+</head>
+<body>
+<br><br><br>
+<div class="container">
+
+
+    <h1>Enroll in a Course</h1>
+    <form>
+
+            <h2>Trainees</h2>
+
+            <div class="row">
+                <div class="form-group col-sm-5 px-1">
+                    <label >Enter Trainee ID or Name</label>
+                    <input type="text" class="form-control" placeholder="Ex: John Doe or 12345">
+                    <button type="button" class="btn btn-primary mt-2">Search</button>
+
+                </div>
+            </div>
+            <p>OR</p>
+
+            <div id="traineeArea" class="row">
+                <label>Select Trainee</label>
+                <select class="custom-select" id="inputGroupSelect01">
+                    <option value="" hidden>Select A Trainee</option>
+                    <option value="">John Doe</option>
+                </select>
+            </div>
+        <br><br><br>
+
+        <h2>Course</h2>
+
+        <div class="row">
+            <div class="form-group col-sm-5 px-1">
+                <label >Enter Course Name Or CRN</label>
+                <input type="text" class="form-control" placeholder="Course Name">
+                <button type="button" class="btn btn-primary mt-2">Search</button>
+
+            </div>
+        </div>
+        <p>OR</p>
+
+        <div id="classArea" class="row">
+            <label>Select Class</label>
+            <select class="custom-select" id="inputGroupSelect00">
+                <option value="" hidden>Select A Class</option>
+                <option value="">Web Services CRN:12345</option>
+            </select>
+        </div>
+
+
+    </form>
+    <br>
+    <br>
+    <br>
+</div>
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/enroll.js"></script>
+</body>
+</html>
